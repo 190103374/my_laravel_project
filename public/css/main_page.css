@@ -1,0 +1,375 @@
+
+body {
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+a {
+    text-decoration: none;
+    color: crimson;
+}
+.image {
+    width: 100%;
+    height: 44.5vw;
+    background-image: url("https://i2.wp.com/www.compunneldigital.com/wp-content/uploads/2019/08/BI-Image.jpg?fit=1200%2C630&ssl=1");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+   
+}
+.svgEl {
+    display: flex;
+}
+.simple {
+    color:white;
+    font-weight: bold;
+    font-size: 1.6vw;
+    margin-top: 5.5vw;
+    
+}
+.lavish {
+    margin-top: 2.5vw;
+    margin-bottom: 2.5vw;
+    color:  crimson;
+    font-weight: bold;
+    font-size: 2vw;
+    letter-spacing: 0.2vw;
+    outline-style: solid;
+    outline-width: 0.2vw;
+    outline-color: crimson;
+    width: 9vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Satisfy', cursive;
+    padding: 1.5vw;
+
+
+}
+.uiux {
+    margin-bottom: 2.5vw;
+    color: white;
+    font-weight: bold;
+    font-size: 1.6vw;
+}
+.text {
+    width: 70vw;
+    color: #dc143c;
+    display: flex;
+    font-size: 1.6vw;
+    align-items: center;
+    text-align: center;
+    font-family: 'Satisfy', cursive;
+}
+div.start {
+    margin-top: 2.5vw;
+    width: 8vw;
+    outline-style: solid;
+    outline-width: 0.2vw;
+    outline-color: white;
+    padding: 1vw;
+    font-size: 1.3vw;
+    color: white;
+    text-align: center;
+    background-color: rgba(173, 150, 145, 0.9);
+}
+.whatIdo {
+    background-color: rgb(41, 39, 37);
+    padding-left: 12vw;
+    padding-right: 12vw;
+    font-size: 2vw; 
+    color:white;
+    height: 18vw;
+}
+.what {
+    display: flex;
+    justify-content: center;
+    padding-top: 3vw;
+    font-weight: bold;
+    padding-bottom: 1vw;
+    font-family: 'Satisfy', cursive;
+}
+.box {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 20vw;
+}
+.one {
+    display: flex;
+    justify-content: space-around;
+    padding: 1.5vw;
+    font-size: 1.3vw;
+}
+.first {
+    width: 2vw;
+    padding-right: 1.5vw;
+}
+.second {
+    height: 28vw;
+    background-color: black;
+    color: white;
+    padding-left: 7vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#about {
+    font-weight: bold;
+    font-size: 1.3vw;
+    margin-bottom: 1.5vw;
+}
+#des {
+    font-weight: bold;
+    font-size: 1.5vw;
+    margin-bottom: 1.5vw;
+    color: #dc143c;
+    font-family: 'Satisfy', cursive;
+}
+#dtext {
+    width: 40vw;
+    font-size: 1.3vw;
+    padding-right: 5vw
+}
+#rec {
+    font-size: 1.3vw;
+    margin-top: 6vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#SecondBlockOne {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#third {
+    height: 46vw;
+    background-color: rgb(41, 39, 37);
+}
+#portfolio {
+    text-align: center;
+    color:white;
+    font-weight: bold;
+    padding: 2vw;
+    font-family: 'Satisfy', cursive;
+}
+.img1 {
+    width: 20vw;
+    height: 14vw;
+    margin-right: 2vw;
+    margin-bottom: 2vw;
+}
+#imgCont1 {
+    display: none;
+}
+.imgcont {
+    display: flex;
+    justify-content: center;
+}
+
+.img2 {
+    width: 31vw;
+    margin-right: 2vw;
+}
+.fourth {
+    height: 30vw;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1vw;
+}
+
+.firstContact {
+    width: 2vw;
+    padding-right: 1.5vw;
+}
+.contaner4 {
+    display: flex;
+    flex-direction: row;
+    margin: 1.5vw;
+}
+.contactMe {
+    margin-left: 1.5vw;
+    margin-bottom: 2vw;
+    
+}
+.inp {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10vw;
+}
+.butt {
+    background-color: crimson;
+    color: white;
+    padding: 0.5vw;
+    margin: 1vw;
+    font-weight: bold;
+    font-size: 1.1vw;
+    border: 0;
+}
+input, textarea {
+    background-color : black; 
+    color: white;
+    width: 30vw;
+    
+}
+.center {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+#adv {
+    height: 100px;
+    width: 1000px;
+    background-color: green;
+    padding: 10px;
+    background-image: url(https://lh3.googleusercontent.com/42mEMk4vH9yH4Fnlo49vTJ_wNgpWXSc-Ry8bb0Bv2a4R3mIdUUuE0hgXrQpR7Alkg0o=w720-h310);
+    height: 8.5vw;
+}
+#address {
+    text-align: right;
+    color: crimson;
+    
+}
+#street {
+    text-align: right;
+    display: none;
+    color: crimson;
+}
+#upInfo {
+    display: none;
+    background-color: crimson;
+    height: 90px;
+    width: 200px;
+}
+.comp {
+    height: 8vw;
+    font-size: 1vw;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.first_text {
+    width: 25vw;
+}
+
+@media (max-width:800px) {
+    .text {
+        display: none;
+    }
+    .image {
+        height: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .simple {
+        font-size: 4vw;
+        color: crimson;
+    }
+    .lavish {
+        font-size: 4.5vw;
+        width: 16vw;
+        padding: 2vw;
+        margin: 5vw;
+        color:  rgba(173, 150, 145, 0.9);
+        background-color: rgba(220, 20, 60, 1);
+
+    }
+    .uiux {
+        font-size: 4vw;
+        color: crimson;
+    }
+    
+    div.start {
+        padding: 2vw;
+        font-size: 3vw;
+        width: 16vw;
+    }
+    
+    .whatIdo {
+        height: 40vw;
+        box-sizing: border-box;
+    }
+    
+    .what {
+        
+        padding-top: 1vw;
+    }
+
+    .box {
+        display: flex;
+        flex-direction: column;
+        width: 80vw;
+        padding: 0;
+    }
+
+    .first_text {
+        width: 50vw;
+    }
+
+    .one {
+        font-size: 2vw;
+        border-radius: 0.5vw;
+        margin: 0.2vw; 
+    }
+
+    .first {
+        width: 5vw;
+    }
+
+    .second {
+        height: 60vw;
+        box-sizing: border-box;
+    }
+
+    #SecondBlockOne {
+        display: block;
+        padding: 3vw;
+    }
+
+    #about {
+        font-size: 3vw;
+        padding-top: 10vw;
+    }
+
+    #des {
+        font-size: 2.3vw;
+
+    }
+    
+    #dtext {
+        width: 70vw;
+        font-size: 2vw;
+    }
+
+    #third {
+        height: 100vw;
+    }
+
+    #portfolio {
+        padding: 3vw;
+    }
+
+    .img1 {
+        display: block;
+        width: 31vw;
+        height: 20vw;
+    }
+
+    #imgCont1 {
+        display: block;
+    }
+   
+}

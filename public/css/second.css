@@ -1,0 +1,418 @@
+body, html {
+    height: 100%;
+}
+
+body {
+    margin: 0 auto;
+    box-sizing: border-box;
+    background-color: black;
+    text-align: center;
+}
+.parallax {
+    background-image: url("https://media.rbcdn.ru/media/news/annie-spratt-qckxruozjrg-unsplash_wsPNmAl.jpg");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.web_dev {
+    height: 110%;
+    padding: 1vw;
+    text-align: center;
+}
+.web_dev_head {
+    padding: 3%;
+    font-size: 3vw;
+    margin: 1vw;
+    font-weight: bold;
+    text-align: center;
+    color: crimson;
+}
+
+.web_dev_divs {
+    height: 50%;
+    text-align: center;
+    color: crimson;
+    display: flex;
+}
+.sub_div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 1vw;
+}
+.web_dev_container {
+    height: 20vw;
+    width: 20vw;
+    text-align: center;
+}
+.web_dev_txt {
+    font-size: 1.5vw;
+    font-weight: bold;
+}
+.web_dev_content {
+    font-size: 1.2vw;
+    text-align: center;
+    margin: 2vw 0 2vw 0;
+    width: 30vw;
+}
+
+#footer_top {
+    height: 5%;
+    background-color: black;
+    color:rgba(220, 20, 60, 0.7);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left : 70vw;
+    font-size: 1vw;
+    font-weight: bold;
+}
+.txt_lavish {
+    font-family: 'Satisfy', cursive;
+    font-size: 4vw;
+    font-weight: bold;
+    color: crimson;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20vw;
+
+}
+
+.header {
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    height: 4vw;
+    padding: 0 18vw;
+    font-size: 1.5vw;
+    color: white;
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+.lavish, #btn_pass {
+    font-family: 'Satisfy', cursive;
+    display: flex;
+    align-items: center;
+    margin-top: 0.2vw;
+    color: white;
+    outline-color: #dc143c;
+    outline-style: solid;
+    outline-width: 0.2vw;
+    font-weight: bold;
+    font-size: 1vw;
+    letter-spacing: 0.1vw;
+    width: 7vw;
+    justify-content: center;
+    padding: 0.9vw;
+}
+.container {
+    height: 10vw;
+    background-color: crimson;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#text_container {
+    font-size: 2.5vw;
+    color: wheat;
+    font-family: 'Satisfy', cursive;
+}
+#home, #schedule, #catalog, #about_us, #head-login {
+    cursor: pointer;
+    width: 10vw;
+    height: 2vw;
+    padding: 0.5vw;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: crimson;
+        cursor: pointer;
+}
+
+.threeDiv {
+    display: none;
+    cursor: pointer;
+    position: absolute;
+    top: 85vw;
+    right: 0.6vw;
+}
+.bar1, .bar2, .bar3 {
+    width: 3.5vw;
+    height: 0.4vw;
+    background-color: crimson;
+    margin: 0.6vw;
+    transition: 0.4s;
+}
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-0.9vw, 0.6vw);
+    transform: rotate(-45deg) translate(-0.9vw, 0.6vw);
+}
+  
+.change .bar2 {opacity: 0;}
+  
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-0.8vw, -0.8vw);
+    transform: rotate(45deg) translate(-0.8vw, -0.8vw);
+}
+
+#mediaDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2vw;
+    height: 28vw;
+}
+.media {
+    background-color: crimson;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 2vw;
+    width: 40vw;
+    height: 25vw;
+}
+
+.login {
+    position: absolute;
+    top: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 200%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 2;
+    opacity: 0;
+}
+
+.login-content {
+    background-color: hsl(348, 83%, 70%);
+    position: relative;
+    padding: 2vw;
+    border-radius: 1.5vw;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+input {
+    display: block;
+    margin: 1vw auto;
+    width: 30vw;
+    padding: 1vw;
+}
+
+.close {
+    position: absolute;
+    top: 0.6vw;
+    right: 0.6vw;
+    cursor: pointer;
+}
+
+.user_profile {
+    position: absolute;
+    top: 40vw;
+    right: 46vw;
+    margin: 0;
+    background-color: rgba(239, 202, 133, 0.6);
+    border-radius: 0.5vw;
+    z-index: 1;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+#profile_img {
+    width: 3vw;
+    height: 3vw;
+    display: inline;
+}
+
+#user_name {
+    margin: 0;
+    padding: 0.5vw;
+    display: inline;
+    font-size: 1.3vw;
+    font-weight: bold;
+    font-family: 'Segoe UI';
+}
+
+#cources {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 4vw;
+    height: 5vw;
+}
+
+.course {
+    outline-style: solid;
+    outline-width: 0.2vw;
+    outline-color: crimson;
+    width: 45vw;
+    text-align: center;
+    padding: 1.5vw;
+    background-color: rgba(220, 20, 60, 0.7);
+    color: wheat;
+    font-size: 1.5vw;
+    font-weight: bold;
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+#titleSecond {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 2vw;
+    font-weight: bold;
+    color: crimson;
+}
+
+.second {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40vw;
+}
+
+
+#img_course {
+    width: 35vw;
+}
+
+.catalog_img {
+    margin-left: 9.5vw;
+}
+
+#text1, #text2, #text3, #text4 {
+    outline-style: solid;
+    outline-width: 0.2vw;
+    outline-color: crimson;
+    width: 45vw;
+    text-align: center;
+    padding: 1.5vw;
+    background-color: rgba(220, 20, 60, 0.7);
+    color: #f5deb3;
+    display: none;
+    font-size: 1.7vw;
+    font-family: 'Satisfy', cursive;
+}
+
+.third {
+    height: 5vw;
+    background-color: crimson;
+    color: wheat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4vw;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    padding: 2vw;
+}
+
+.firstContact {
+    width: 3vw;
+    padding-right: 1.5vw;
+}
+.contaner4 {
+    display: flex;
+    justify-content: center;
+    width: 25vw;
+
+}
+
+.comp {
+    height: 7vw;
+    font-size: 1vw;
+    background-color: crimson;
+    color: wheat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+@media (max-width:800px) {
+    .txt_lavish {
+        font-size: 10vw;
+    }
+    #mediaDiv {
+        display: none;
+    }
+    .threeDiv {
+        display: inline-block;
+    }
+    .header {
+       display: none;
+       height: 8vw;
+       font-size: 3vw;
+       padding: 0 36vw;
+    }
+    .lavish, #btn_pass {
+        margin-top: 1vw;
+        outline-width: 0.4vw;
+        font-size: 2vw;
+        letter-spacing: 0.2vw;
+        width: 12vw;
+        padding: 1.2vw;
+    }
+    #home, #schedule, #catalog, #about_us, #head-login {
+        width: 15vw;
+        height: 4vw;
+        padding: 1vw;
+    }
+    .user_profile {
+        top: 83vw;
+    }
+    #profile_img {
+        width: 5vw;
+        height: 5vw;
+    }
+    #user_name {
+        font-size: 2.3vw;
+    }
+    .second {
+        flex-direction: column;
+        padding: 5vw;
+        height: 80%;
+    }
+    .catalog_courses {
+        padding-top: 4vw;
+        padding-bottom: 4vw;
+    }
+    .course {
+        outline-width: 0.4vw;
+        width: 70vw;
+        padding: 2.1vw;
+        font-size: 2.3vw;
+    }
+    #text1, #text2, #text3, #text4 {
+        outline-width: 0.2vw;
+        width: 71.45vw;
+        padding: 1.5vw;
+        font-size: 2.5vw;
+    }
+    .catalog_img {
+        margin: 0 auto;
+    }
+    #img_course {
+        width: 50vw;
+    }
+    .third {
+        font-size: 2.5vw;
+        height: 7vw;
+    }
+    .contaner4 {
+        width: auto;
+        margin: auto;
+    }
+    .comp {
+        height: 8vw;
+        font-size: 2vw;
+    }
+}
