@@ -14,12 +14,12 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('main_page');
+    return view('welcome');
 });
 
-// Route::get('/lavish', function () {
-//     return view('main_page');
-// });
+Route::get('/lavish', function () {
+    return view('main_page');
+});
 
 // Route::get('/lavish/{lang}', function($lang) {
 //     App::setlocale($lang);
