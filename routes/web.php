@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('main_page');
+    return view('second_page');
 });
 
 // Route::get('/lavish', function () {

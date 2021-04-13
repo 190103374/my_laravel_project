@@ -2,9 +2,8 @@
 <html>
     <head>
         <title>Site</title>
-        <!-- <link rel='stylesheet' type='text/css' media='screen' href='C:/xampp/htdocs/my_laravel_project/resources/css/main_page.css'> -->
-        <link rel="stylesheet" href="{{ asset('css/main_page.css') }}">
-        <!-- <link rel="stylesheet" href="<?php echo asset('css/main_page.css')?>" type="text/css">  -->
+        <link rel='stylesheet' type='text/css' media='screen' href='C:/xampp/htdocs/my_laravel_project/resources/css/main_page.css'>
+        <link rel="stylesheet" href="<?php echo asset('css/main_page.css')?>" type="text/css"> 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script src="https://api-maps.yandex.ru/2.1/?lang=en_RU&amp;
